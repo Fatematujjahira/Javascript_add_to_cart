@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: wheat;
+}
+.container {
+  width: 800px;
+  height: 500px;
+  float: left;
+  background: white;
+  box-sizing: border-box;
+  margin-right: 20px;
+  box-shadow: 5px 5px 7px black;
+}
+
+.fixed {
+  width: 500px;
+  height: 400px;
+  float: left;
+  background: white;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 7px black;
+}
+.h1 {
+  text-align: center;
+  color: gray;
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+  font-size: 1.6rem;
+  color: rgb(255, 190, 51);
+  padding: 10px;
+  font-family: cursive;
+}
+.img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 3px 4px 7px black;
+}
+.card_img {
+  width: 40%;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 3px 4px 7px black;
+  float: left;
+}
+.card_title {
+  float: left;
+  margin-left: 100px;
+  padding: 10px;
+}
+.price {
+  color: tomato;
+}
+.icon {
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background 0.5s;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.icon:hover {
+  background-color: rgb(131, 160, 253);
+  color: white;
+}
+.input {
+  width: 70px;
+  background: rgb(75, 191, 245);
+  color: rgb(44, 44, 44);
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+.item {
+  font-size: 1.5rem;
+}
