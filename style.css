@@ -8,7 +8,7 @@ body {
 }
 .container {
   width: 800px;
-  height: 500px;
+  height: 580px;
   float: left;
   background: white;
   box-sizing: border-box;
@@ -18,7 +18,7 @@ body {
 
 .fixed {
   width: 500px;
-  height: 400px;
+  height: 500px;
   float: left;
   background: white;
   box-sizing: border-box;
@@ -79,4 +79,7 @@ h3 {
 }
 .item {
   font-size: 1.5rem;
+}
+.clear {
+  clear: both;
 }
